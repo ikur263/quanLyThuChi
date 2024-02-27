@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: Open Sans;
+}
+.banner {
+  height: 800px;
+  background: url(./img/BG4.avif) center center no-repeat;
+  padding: 20px;
+}
+.about-sign-in {
+  height: 100px;
+  width: 100%;
+  text-align: right;
+}
+.about {
+  color: white;
+}
+.signIn {
+  margin-right: 7%;
+  margin-left: 25px;
+  border-radius: 25px;
+  border: 1px solid #eca86f;
+  color: #eca86f;
+}
+.signIn:hover {
+  background-color: white;
+  color: black;
+}
+.about:hover {
+  color: #eca86f;
+}
+.about,
+.signIn {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 7px 15px;
+}
+.logo-box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 45%;
+  margin-top: 100px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text {
+  font-family: Inter;
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+}
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 7px 10px;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  background-color: rgb(236, 168, 111);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.content-center {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.child {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  padding: 10px 50px;
+  font-weight: bolder;
+  font-size: large;
+}
+.child img {
+  width: 100%;
+  height: 100%;
+}
